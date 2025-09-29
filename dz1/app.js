@@ -1,8 +1,6 @@
 const actionCoin = document.getElementById("value-coin");
 const actionAddCoin = document.getElementById("add-Coin");
-
 let coin = 0;
-
 function actionAdd(){
     if (coin < 10) {
         coin++;

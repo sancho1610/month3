@@ -6,13 +6,13 @@ let coin = 0;
 function actionAdd(){
     if (coin < 10) {
         coin++;
-        actionCoin.textContent = coin;
+        actionCoin.innerText = coin;
     } else {
         coin += 2;
-        actionCoin.textContent = coin;
+        actionCoin.innerText = coin;
     } if (coin > 100) {
         coin += 3;
-        actionCoin.textContent = coin;
+        actionCoin.innerText = coin;
     }
 }
 

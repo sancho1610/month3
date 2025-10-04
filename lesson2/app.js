@@ -38,3 +38,12 @@ const sliderMovePrev = () => {
 }
 prevBtn.onclick = sliderMovePrev;
 
+const indicators = document.querySelectorAll(".nav-item");
+
+for(let i =0; i < indicators.length; i++) {
+    const indicator = indicators[i];
+    indicator.onclick = function(){
+        currentSlideIndex = i + 1;
+        renderSlider(i+1);
+    }
+}

@@ -104,6 +104,7 @@ body::before {
   border-radius: 100%;
   background-color: white;
   opacity: 0.3;
+  cursor: pointer;
 }
 
 .nav-item.active {
